@@ -135,6 +135,7 @@ font-weight: 700;
 .effective-solutions-section {
     background: #2e2f42;
     padding: 188px 0;
+    
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
@@ -301,6 +302,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 
@@ -350,6 +352,7 @@ letter-spacing: 0.02em;
     width: calc((100% - 48px) / 3);
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0%);
  }
 
 .our-portfolio-li:hover{
@@ -397,6 +400,7 @@ letter-spacing: 0.02em;
 .footer-titlediv{
     display: flex;
     align-items: baseline;
+   
     margin-right: 120px;
 
 }
